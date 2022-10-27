@@ -1,0 +1,54 @@
+/* PRINCIPAL */
+body {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+.navbar {
+  background: rgba(241, 193, 34, 1) !important;
+  height: auto;
+}
+
+.navbar ul li:hover {
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  outline: 0;
+}
+
+footer {
+  height: 170px;
+  background: #dfe0df;
+  font-weight: bold;
+}
+.titulo {
+  color: rgba(241, 193, 34, 1);
+}
+/* ------ */
+
+/* CARDS */
+img.card-img-top {
+  height: 300px;
+}
+.card {
+  cursor: pointer;
+}
+.card:hover {
+  transform: scale(1.02);
+}
+.card button,
+.form-contacto button {
+  background: rgba(241, 193, 34, 1) !important;
+}
+/* ------ */
+
+/* GALERIA */
+.galeria img {
+  height: 500px;
+  border: 1px solid rgb(199, 199, 199);
+  border-radius: 5px;
+}
+/* ------ */
