@@ -1,0 +1,16 @@
+.card {
+    cursor: pointer;
+    min-height: 570px;
+
+    .card-img-top {
+        height: 300px;
+    }
+
+    button {
+        background: $color-primario !important;
+    }
+
+    &:hover {
+        transform: scale(1.02);
+    }
+}

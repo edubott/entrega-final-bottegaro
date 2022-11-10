@@ -1,0 +1,18 @@
+.navbar {
+    background: $color-primario !important;
+    height: auto;
+
+    ul {
+        li {
+            &:hover {
+                font-weight: bold;
+            }
+        }
+    }
+
+    a {
+        text-decoration: none;
+        color: inherit;
+        outline: 0;
+    }
+}

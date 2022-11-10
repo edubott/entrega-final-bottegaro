@@ -1,19 +1,15 @@
-/* PRINCIPAL */
 body {
-  margin: 0;
   font-family: "Montserrat", sans-serif;
 }
 
 .navbar {
-  background: rgba(241, 193, 34, 1) !important;
+  background: rgb(241, 193, 34) !important;
   height: auto;
 }
-
 .navbar ul li:hover {
   font-weight: bold;
 }
-
-a {
+.navbar a {
   text-decoration: none;
   color: inherit;
   outline: 0;
@@ -24,31 +20,38 @@ footer {
   background: #dfe0df;
   font-weight: bold;
 }
-.titulo {
-  color: rgba(241, 193, 34, 1);
+footer a {
+  text-decoration: none;
+  color: inherit;
+  outline: 0;
 }
-/* ------ */
 
-/* CARDS */
-img.card-img-top {
-  height: 300px;
+.titulo {
+  color: rgb(241, 193, 34);
 }
+
 .card {
   cursor: pointer;
+  min-height: 570px;
+}
+.card .card-img-top {
+  height: 300px;
+}
+.card button {
+  background: rgb(241, 193, 34) !important;
 }
 .card:hover {
   transform: scale(1.02);
 }
-.card button,
-.form-contacto button {
-  background: rgba(241, 193, 34, 1) !important;
-}
-/* ------ */
 
-/* GALERIA */
+.form-contacto button {
+  background: rgb(241, 193, 34) !important;
+}
+
 .galeria img {
   height: 500px;
   border: 1px solid rgb(199, 199, 199);
   border-radius: 5px;
 }
-/* ------ */
+
+/*# sourceMappingURL=master.css.map */

@@ -1,0 +1,11 @@
+footer {
+    height: 170px;
+    background: $color-secundario;
+    font-weight: bold;
+
+    a {
+        text-decoration: none;
+        color: inherit;
+        outline: 0;
+    }
+}
