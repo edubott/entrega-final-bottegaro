@@ -1,6 +1,5 @@
 .card {
     cursor: pointer;
-    min-height: 570px;
 
     .card-img-top {
         height: 300px;
@@ -13,4 +12,8 @@
     &:hover {
         transform: scale(1.02);
     }
+}
+
+.card-home {
+    min-height: 570px;
 }

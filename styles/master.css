@@ -32,7 +32,6 @@ footer a {
 
 .card {
   cursor: pointer;
-  min-height: 570px;
 }
 .card .card-img-top {
   height: 300px;
@@ -42,6 +41,10 @@ footer a {
 }
 .card:hover {
   transform: scale(1.02);
+}
+
+.card-home {
+  min-height: 570px;
 }
 
 .form-contacto button {
