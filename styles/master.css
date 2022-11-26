@@ -47,14 +47,47 @@ footer a {
   min-height: 570px;
 }
 
+.ver-mas {
+  text-decoration: none;
+  color: unset;
+}
+.ver-mas:hover {
+  color: unset;
+}
+
 .form-contacto button {
   background: rgb(241, 193, 34) !important;
+}
+
+.mapouter {
+  position: relative;
+  text-align: right;
+  height: 500px;
+  width: 100%;
+}
+
+.gmap_canvas {
+  overflow: hidden;
+  background: none !important;
+  height: 500px;
+  width: 100%;
 }
 
 .galeria img {
   height: 500px;
   border: 1px solid rgb(199, 199, 199);
   border-radius: 5px;
+}
+
+.nosotros-main {
+  background-image: url("../../images/nosotros.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 100%;
+}
+.nosotros-main .texto-nosotros {
+  color: white;
+  text-shadow: 1px 1px #7e7e7e;
 }
 
 /*# sourceMappingURL=master.css.map */
